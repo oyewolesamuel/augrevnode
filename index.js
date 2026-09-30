@@ -60,4 +60,6 @@ app.listen(PORT, (err)=>{
 
 module.exports=async(req, res)=>{
     await connectDB()
+
+    return app (req, res)
 }
